@@ -1,0 +1,3 @@
+# ignore .o and executables
+*.o
+lab2
