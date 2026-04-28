@@ -4,11 +4,11 @@ This is the code for the Hamming Distance, which calculates the number of differ
 
 To compile this code, run the following:
 ```
-gcc -no-pie -nostartfiles -c lab2.s -o lab2.o
+as --32 lab2.s -o lab2.o
 ```
 
 ```
-gcc lab2.o -o lab2
+ld -m elf_i386 lab2.o -o lab2
 ```
 
 Then, to run the program, simply type the following:
