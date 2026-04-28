@@ -4,7 +4,7 @@ This is the code for the Hamming Distance, which calculates the number of differ
 
 To compile this code, run the following:
 ```
-gcc -c lab2.s -o lab2.o
+gcc -no-pie -nostartfiles -c lab2.s -o lab2.o
 ```
 
 ```
